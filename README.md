@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Name Meaning
+means to start anew in latin
 
-## Available Scripts
+Inspiration
+With student debt in the United States skyrocketing while pay stays roughly stagnant, not everyone can afford to go to a four-year institution. For these people, reaching their career goals might not seem possible, and they might stick to working passionless jobs for their whole lives. We wanted to come up with an application that would allow for people who are not happy with their current careers to work towards rewarding careers
 
-In the project directory, you can run:
+What it does
+Our web application lets users make an account to manage their career paths. Initially, it prompts users to input answers to various questions accessing their current qualifications as well as their dream jobs. Afterwards, it generates a resume for the user based on where they currently are, and it generates a future resume with qualifications that they should work towards getting to get their dream job. The "future resume" has links and resources that the users can use to work towards each individual qualification.
 
-### `yarn start`
+How we built it
+We used react to build out the front-end, and we used Google Cloud firebase as the basis for back-end. On firebase, we used a Realtime Database to store our user information and job qualification information.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Challenges we ran into
+During the project, we ran into a few problems with properly connecting our front and back end.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Accomplishments that we're proud of
+We are proud of the fact that we managed to completely build out a web react app!
 
-### `yarn test`
+What we learned
+We learned how to use react for web applications and Google Cloud's firebase.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What's next for Novus
+The next step for Novus would be to add in more career paths for users to choose from. Currently, we have a few tracks stored in the Google Cloud real-time database, but having more variety in careers would enable for everyone to find their dream career on our website.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Built With
+bootstrap
+css
+firebase
+firebase-authentication
+firebase-hosting
+firebase-real-time-database
+google-cloud
+html
+javascript
+material
+material-ui
+react
